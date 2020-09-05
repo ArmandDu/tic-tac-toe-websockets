@@ -1,0 +1,38 @@
+// For Typescript see:
+// - https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md
+// - https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+    // "cypress/globals": true
+  },
+  "extends": [
+    // "eslint:recommended",
+    // "plugin:@typescript-eslint/eslint-recommended",
+    // "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "react-app",
+    "plugin:react/recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+    // "plugin:cypress/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "react-hooks", "jsx-a11y" /*"cypress"*/],
+  "rules": {
+    "strict": ["error", "global"],
+    "curly": "warn",
+    "require-atomic-updates": "warn",
+    "prefer-const": "warn",
+    "no-var": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+    // "@typescript-eslint/adjacent-overload-signatures": "error",
+    // "@typescript-eslint/ban-ts-ignore": "error",
+    // "@typescript-eslint/ban-types": "error"
+  }
+}

@@ -1,0 +1,7 @@
+.next/
+scripts/
+
+.yarn/
+.pnp.js
+
+.vscode
