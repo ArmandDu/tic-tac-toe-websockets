@@ -1,4 +1,6 @@
 .next/
+build/
+dist/
 scripts/
 
 .yarn/

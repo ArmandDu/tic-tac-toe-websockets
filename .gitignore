@@ -6,3 +6,7 @@
 !.yarn/versions
 
 .next/
+dist
+
+.vercel
+node_modules/
