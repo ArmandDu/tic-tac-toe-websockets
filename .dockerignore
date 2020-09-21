@@ -1,0 +1,15 @@
+Dockerfile
+
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+.vscode
+
+.next/
+dist/
+
+.env*
